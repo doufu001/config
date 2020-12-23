@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         【vip影视助手】免费在线观看VIP视频，支持爱奇艺，优酷，乐视tv，腾讯视频，土豆，芒果TV，搜狐视频，Acfun，bilibili，PPTV，华数TV等主流影视平台
 // @namespace    http://mmys.club/vip
-// @version      7.0.3
+// @version      7.1
 // @description  只专注于一个功能，简洁干净，在视频播放页左侧点击VIP按钮，跳转到新页面即可免费在线观看vip视频
 // @author       simples
 // @match        *://*.iqiyi.com/v_*
@@ -38,6 +38,6 @@
     var vipBtn = "<div id='vipBtn' style='cursor:pointer;z-index:998;position:fixed;left:10px;top:300px;'><img src='https://cdn.80note.com/vip.gif' height='55' ></div>";
     $("body").append(vipBtn);
     $('#vipBtn').click(function() {
-        window.location.href = "https://yi29f.cn/vip.php?url=" + encodeURIComponent(window.location.href);
+        window.location.href = "http://jx.598110.com/?url=" + encodeURIComponent(window.location.href);
     });
 })();
